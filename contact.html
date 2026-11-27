@@ -1,18 +1,36 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Contact Us | UGDC</title>
+
+    <meta name="description"
+          content="Contact Universal Global Digital Company for digital services, technology, business and innovation.">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
+<!-- HEADER -->
 <header class="header">
-    <div class="logo">UGDC</div>
 
-    <button class="menu-toggle" id="menuToggle">☰</button>
+    <a href="index.html" class="logo">
+        <span>UG</span>DC
+        <small>UNIVERSAL GLOBAL DIGITAL COMPANY</small>
+    </a>
+
+    <button class="menu-toggle"
+            id="menuToggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false">
+        ☰
+    </button>
 
     <nav id="navMenu">
         <a href="index.html">Home</a>
@@ -24,77 +42,183 @@
         <a href="pricing.html">Pricing</a>
         <a href="contact.html">Contact</a>
     </nav>
+
 </header>
 
-<section class="page-hero">
-    <h1>Contact UGDC</h1>
+<!-- CONTACT HERO -->
+<section class="contact-hero">
+
+    <h1>CONTACT <span>UGDC</span></h1>
+
     <p>Let's Connect, Create and Innovate Together.</p>
+
 </section>
 
-<section class="section">
+<!-- CONTACT INFORMATION -->
+<section class="section contact-section">
+
     <h2>Get In Touch</h2>
-    <p>
+
+    <p class="contact-intro">
         Do you have a project, business idea or technology
-        opportunity? Contact Universal Global Digital Company.
+        opportunity? We are ready to connect with you.
     </p>
 
-    <div class="service-grid">
+    <div class="contact-grid">
 
-        <div class="service-card">
-            <h3>Email</h3>
-            <p>Official email: To be added.</p>
+        <!-- BUSINESS PHONE -->
+        <div class="contact-card">
+
+            <h3>📞 Business Phone</h3>
+
+            <p>+265 893 174 654</p>
+
+            <a href="tel:+265893174654">
+                Call Business
+            </a>
+
         </div>
 
-        <div class="service-card">
-            <h3>Phone / WhatsApp</h3>
-            <p>Official business number: To be added.</p>
+        <!-- WHATSAPP BUSINESS -->
+        <div class="contact-card">
+
+            <h3>💬 WhatsApp Business</h3>
+
+            <p>+265 893 174 654</p>
+
+            <a href="https://wa.me/265893174654"
+               target="_blank"
+               rel="noopener noreferrer">
+                Chat on WhatsApp
+            </a>
+
         </div>
 
-        <div class="service-card">
-            <h3>Location</h3>
-            <p>Malawi – proposed headquarters.</p>
+        <!-- MESSAGING -->
+        <div class="contact-card">
+
+            <h3>💬 Messaging</h3>
+
+            <p>+265 894 030 557</p>
+
+            <a href="https://wa.me/265894030557"
+               target="_blank"
+               rel="noopener noreferrer">
+                WhatsApp Messaging
+            </a>
+
+        </div>
+
+        <!-- LOCATION -->
+        <div class="contact-card">
+
+            <h3>🌍 Location</h3>
+
+            <p>Malawi</p>
+
+            <span>UGDC Service Location</span>
+
+        </div>
+
+        <!-- EMAIL -->
+        <div class="contact-card">
+
+            <h3>✉️ Email</h3>
+
+            <p>Official email to be added.</p>
+
         </div>
 
     </div>
+
 </section>
 
-<section class="section">
+<!-- CONTACT INQUIRY FORM -->
+<section class="section inquiry-section">
+
     <h2>Send Us an Inquiry</h2>
+
+    <p>Tell us about your project, ideas or questions.</p>
 
     <form id="contactForm">
 
         <label for="name">Full Name</label>
-        <input type="text" id="name"
-               placeholder="Enter your name" required>
+
+        <input type="text"
+               id="name"
+               placeholder="Enter your full name"
+               required>
 
         <label for="email">Email Address</label>
-        <input type="email" id="email"
-               placeholder="Enter your email" required>
+
+        <input type="email"
+               id="email"
+               placeholder="Enter your email"
+               required>
 
         <label for="subject">Subject</label>
-        <input type="text" id="subject"
-               placeholder="What is your inquiry about?" required>
 
-        <label for="message">Message</label>
-        <textarea id="message" rows="6"
+        <input type="text"
+               id="subject"
+               placeholder="Your inquiry subject"
+               required>
+
+        <label for="message">Your Message</label>
+
+        <textarea id="message"
+                  rows="6"
                   placeholder="Write your message..."
                   required></textarea>
 
-        <button type="submit">Submit Inquiry</button>
+        <button type="submit">
+            Submit Inquiry →
+        </button>
 
         <p id="formMessage"></p>
+
     </form>
+
 </section>
 
+<!-- FOOTER -->
 <footer class="footer">
+
+    <h3>UGDC</h3>
+
+    <p>Universal Global Digital Company</p>
+
+    <p>Innovating Technology, Connecting the World.</p>
+
     <p>
         © <span id="year"></span>
-        Universal Global Digital Company.
-        All Rights Reserved.
+        UGDC. All Rights Reserved.
     </p>
-    <p>Innovating Technology, Connecting the World.</p>
-</footer>
+  
+<div class="social-links">
+    <a href="https://www.facebook.com/share/1BVsYKTQzs/"
+       target="_blank"
+       rel="noopener noreferrer">
+        Facebook
+    </a>
+</div>
 
+
+</footer>
+  
+<!-- UGDC FLOATING WHATSAPP BUTTON -->
+
+<a href="https://wa.me/265893174654"
+   class="whatsapp-float"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Chat with UGDC on WhatsApp">
+
+    💬 WhatsApp
+
+</a>
+
+
+<!-- JAVASCRIPT CONNECTION -->
 <script src="js/script.js"></script>
 
 </body>
